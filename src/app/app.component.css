@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(26, 26, 91)
+}
+
+span{
+    color: rgb(24, 239, 24);
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    color: gold;
+}
+
+.descricao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    color: white;
+}
+
+.descricao h3{
+    margin-top: -4px;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
