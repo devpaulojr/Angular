@@ -1,35 +1,125 @@
-body{
-    background-color: rgb(26, 26, 91)
-}
-
-span{
-    color: rgb(24, 239, 24);
-}
-
-.titulo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 80px;
-    color: gold;
-}
-
-.descricao{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 80px;
+body {
+    background-color: rgb(26, 26, 82);
+    width: 400px;
+    height: 500px;
+    margin: 80px auto;
+    font-family: Arial, sans-serif;
     color: white;
-}
-
-.descricao h3{
-    margin-top: -4px;
-}
-
-.input{
+  }
+  
+  span {
+    color: gold;
+  }
+  
+  .login-page {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    background-color: rgb(58, 58, 96);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .login-header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 30px 0;
+  }
+  
+  .login-header h1 {
+    font-size: 1.8rem;
+    color: greenyellow;
+  }
+  
+  .login-header .brand {
+    margin-left: 60px;
+  }
+  
+  .create-account {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .create-account h2 {
+    font-size: 1.2rem;
+  }
+  
+  .create-account h3 {
+    margin-top: 5px;
+    font-size: 1rem;
+  }
+  
+  .email-input-section {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .email-input {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding: 0 10px;
+    margin-bottom: 10px;
+  }
+  
+  .email-button {
+    width: 323px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .email-button:hover {
+    background-color: darkgray;
+  }
+  
+  .login-google {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .login-google .login-divider {
+    margin: 20px 0;
+    font-size: 0.9rem;
+    color: white;
+  }
+  
+  .google-login-button {
+    max-width: 320px;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1.4rem;
+    font-size: 0.875rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    color: rgb(65, 63, 63);
+    background-color: #fff;
+    cursor: pointer;
+    gap: 0.75rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .google-login-button svg {
+    height: 24px;
+  }
+  
+  .google-login-button:hover {
+    transform: scale(1.05);
+  }
+
+ .login-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
