@@ -10,6 +10,7 @@ body {
   background-image: url(../assets/image/fundologin-site.png);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px); 
+  user-select: none;
 }
 
 .container {
@@ -46,6 +47,11 @@ span {
 .login-header h1 {
   font-size: 1.8rem;
   color: greenyellow;
+}
+
+.pages1{
+  text-decoration: none;
+  color: none;
 }
 
 .create-account {
